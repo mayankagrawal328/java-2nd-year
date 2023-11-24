@@ -1,0 +1,17 @@
+Exam Content
+1.diff btw jdk,jre and jvm with figures
+2.features of java, features of oops
+3.diff btw c++ and java
+4.typecasting-implict,explicit
+5.command line argument
+6.contructor overloading,method overloading,type of constructor
+7.var args
+8.super,super of,this, this of
+9.what is instance member and static member in class
+10.final keyword with vaiable,method and class
+11.inheritance,type of inheritance
+12.abstract class
+13.string,string buffer,string builder
+14.method overriding
+15.package
+16.access modifier - public,private,protected

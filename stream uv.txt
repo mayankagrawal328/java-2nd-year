@@ -1,0 +1,74 @@
+package com.stream;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+import org.w3c.dom.ls.LSOutput;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+      ArrayList<Integer> ls = new ArrayList<>();
+      ls.add(23);
+      ls.add(45);
+      ls.add(33);
+      ls.add(58);
+      ls.add(88);
+      ls.add(91);
+      
+      
+//    List<Integer>aa =   ls.stream().filter(i -> i%5==0).collect(Collectors.toList());
+//    System.out.println(aa);
+      
+      
+//    List<Integer> ab =   ls.stream().map(i -> i+5).collect(Collectors.toList());
+//    System.out.println(ab);
+      
+     Long ll =   ls.stream().filter(i -> i>50).count();
+      System.out.println(ll);
+      
+//      int i1 = 90;
+//      int i2 = 889;
+//      
+//      int x = i1>i2 ? 1 : i1 == i2 ? 0 : -1;
+//      
+//      
+////      "sds".compareTo(null)
+      
+      
+//      List<Integer> d = ls.stream().sorted((i1,i2) -> i1>i2? 1:i1==i2?0:-1).collect(Collectors.toList());
+//      System.out.println(d);
+      
+//    Integer ss =   ls.stream().max((x,y) -> y.compareTo(x)).get();
+//    System.out.println(ss);
+     
+//    Integer ss =   ls.stream().min((x,y) -> x.compareTo(y)).get();
+//    System.out.println(ss);
+      
+      
+      
+//      Integer[] adIntegers = ls.stream().toArray(Integer[]::new);
+      
+//      ls.stream().forEach(i -> System.out.println(i));
+      
+//      ls.stream().forEach(System.out::println);
+      
+      Stream<Integer> ssStream = Stream.of(12,34,45,56,78,90);
+      ssStream.forEach(System.out::println);
+		
+      
+      
+	}
+
+}
+
+
+
+
+
+
+
+
