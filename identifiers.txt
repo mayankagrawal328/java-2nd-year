@@ -76,18 +76,17 @@ a good programming practice.
 
 
 Which of the following are valid java identifiers?
-
-_$_
-ca$h
-java2
-java_2_share
-all@hands
-1234abc
-total#
-int
-integer
-Int
-total1020
+_$_ - Valid
+ca$h - Valid
+java2 - Valid
+java_2_share - Valid
+all@hands - Invalid
+1234abc - Invalid 
+total# - Invalid
+int - Invalid
+integer - Valid
+Int - Valid
+total1020 - Valid
 
 
 
